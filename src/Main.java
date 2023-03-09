@@ -110,21 +110,24 @@ public class Main {
         System.out.println("Задвча 8");
         float masha = 67760;
         float denis = 83690;
-        float cristina = 76230;
+        float kristina = 76230;
         byte percent = 10;
         byte oneHundredPercent = 100;
 
         float tenPercentMashi = (masha / oneHundredPercent) * percent;
-        float fullSalaryMashi =masha + tenPercentMashi;
-        System.out.println("Маша теперь получает " + fullSalaryMashi + " рублей. Годовой доход вырос на " + tenPercentMashi + " рублей");
+        float fullSalaryMashi = masha + tenPercentMashi;
+        float newSalaryMashi = tenPercentMashi * 12;
+        System.out.println("Маша теперь получает " + fullSalaryMashi + " рублей. Годовой доход вырос на " + newSalaryMashi + " рублей");
 
         float tenPercentDenisa = (denis / oneHundredPercent) * percent;
         float fullSalaryDenisa = denis + tenPercentDenisa;
-        System.out.println("Маша теперь получает " +fullSalaryDenisa + " рублей. Годовой доход вырос на " + tenPercentDenisa + " рублей");
+        float newSalaryDenisa = tenPercentDenisa * 12;
+        System.out.println("Маша теперь получает " +fullSalaryDenisa + " рублей. Годовой доход вырос на " + newSalaryDenisa + " рублей");
 
-        float tenPercentCristini = (cristina / oneHundredPercent) * percent;
-        float fullSalaryCristini = cristina + tenPercentCristini;
-        System.out.println("Маша теперь получает " + fullSalaryCristini + " рублей. Годовой доход вырос на " + tenPercentCristini + " рублей");
+        float tenPercentKristini = (kristina / oneHundredPercent) * percent;
+        float fullSalaryKristini = kristina + tenPercentKristini;
+        float newSalaryKristini = tenPercentKristini * 12;
+        System.out.println("Маша теперь получает " + fullSalaryKristini + " рублей. Годовой доход вырос на " + newSalaryKristini + " рублей");
         }
 
 }
