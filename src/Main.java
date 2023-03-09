@@ -88,14 +88,43 @@ public class Main {
         float totalWheight = banana + milk + iceCreamSundae + egg;
         float wheight = totalWheight / kg;
 
-        System.out.println(wheight);
+        System.out.println("Получается :" + wheight + " кг");
     }
     public static void task7() {
         System.out.println("Задача 7");
+        short totalWheight = 7000;
+        short wheightMin = 250;
+        short wheightMax = 500;
+
+        int wheightDayMax = totalWheight / wheightMax;
+        System.out.println("Каждый день теряет по 500г и резутат: " + wheightDayMax + " дней");
+
+        int wheightDayMin = totalWheight / wheightMin;
+        System.out.println("Каждый день теряет по 250г и резутат: " + wheightDayMin + " дней");
+
+        int onAverageDays = (wheightDayMax + wheightDayMin) / 2;
+        System.out.println("В среднем получается: " + onAverageDays +" дней");
 
     }
     public static void task8() {
         System.out.println("Задвча 8");
+        float masha = 67760;
+        float denis = 83690;
+        float cristina = 76230;
+        byte percent = 10;
+        byte oneHundredPercent = 100;
+
+        float tenPercentMashi = (masha / oneHundredPercent) * percent;
+        float fullSalaryMashi =masha + tenPercentMashi;
+        System.out.println("Маша теперь получает " + fullSalaryMashi + " рублей. Годовой доход вырос на " + tenPercentMashi + " рублей");
+
+        float tenPercentDenisa = (denis / oneHundredPercent) * percent;
+        float fullSalaryDenisa = denis + tenPercentDenisa;
+        System.out.println("Маша теперь получает " +fullSalaryDenisa + " рублей. Годовой доход вырос на " + tenPercentDenisa + " рублей");
+
+        float tenPercentCristini = (cristina / oneHundredPercent) * percent;
+        float fullSalaryCristini = cristina + tenPercentCristini;
+        System.out.println("Маша теперь получает " + fullSalaryCristini + " рублей. Годовой доход вырос на " + tenPercentCristini + " рублей");
         }
 
 }
